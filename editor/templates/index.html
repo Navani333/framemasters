@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+{% load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Code Editor</title>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-size: 16px;
+            font-family: 'Poppins', sans-serif;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: #454545;
+            color: #fff;
+            font-size: 1rem;
+            overflow: hidden;
+        }
+        
+        .container {
+            width: 100%;
+            min-height: 100vh;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .left {
+            flex: 1;
+            padding: 10px;
+        }
+        
+        textarea {
+            width: 100%;
+            height: 95%;
+            background: #1f1f1f;
+            color: #fff;
+            padding: 10px 20px;
+            border: 0;
+            outline: 0;
+            font-size: 18px;
+        }
+        
+        iframe {
+            flex: 1;
+            margin-top: 10px;
+            background: #fff;
+            border: 0;
+            outline: 0;
+        }
+        
+        label {
+            display: flex;
+            align-items: center;
+            background: #000;
+            height: 40px;
+        }
+        
+        .left button {
+            position: absolute;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 30px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: -40px;
+            margin-left: 140vh;
+        } 
+        
+        button:hover {
+            background-color: #00b30f;
+        }
+        
+        /* Sidebar styles */
+        .sidebar {
+            width: 250px;
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.2);
+        }
+        
+        .sidebar h2 {
+            margin-bottom: 10px;
+        }
+        
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .sidebar li {
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+        
+        .sidebar li:hover {
+            color: #00b30f;
+        }
+        
+        .sidebar button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            width: 100%;
+        }
+        
+        .sidebar button:hover {
+            background-color: #00b30f;
+        }
+        
+        /* Media Queries for Responsive Design */
+        
+        /* For screens up to 768px */
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+        
+            .left {
+                flex-basis: 100%;
+            }
+        
+            button {
+                position: static;
+                margin-top: 10px;
+                margin-left: 0; /* Adjust as needed */
+            }
+            
+            /* Adjust sidebar width for smaller screens */
+            .sidebar {
+                width: 100%;
+            }
+        }
+        
+        /* For screens up to 480px */
+        @media (max-width: 480px) {
+            textarea,
+            iframe {
+                font-size: 14px;
+            }
+        
+            label {
+                height: 30px;
+            }
+        
+            .container {
+                flex-direction: column-reverse;
+            }
+        }
+        <style>
+            /* Rest of your styles */
+    
+            /* Sidebar styles */
+            .container {
+                display: flex;
+                height: 100vh;
+            }
+    
+            .sidebar {
+                width: 250px;
+                background-color: #333;
+                color: white;
+                padding: 20px;
+                box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.2);
+            }
+    
+            .sidebar h2 {
+                margin-bottom: 10px;
+            }
+    
+            .sidebar ul {
+                list-style-type: none;
+                padding: 0;
+            }
+    
+            .sidebar li {
+                margin-bottom: 10px;
+                cursor: pointer;
+            }
+    
+            .sidebar li:hover {
+                color: #00b30f;
+            }
+    
+            /* Updated style for the file list */
+            .sidebar ul {
+                margin-bottom: 10px; /* Add margin at the bottom of the list */
+            }
+    
+            .sidebar button {
+                background-color: #007bff;
+                color: #fff;
+                padding: 10px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+                width: 100%;
+                /* Move the button to the bottom */
+                margin-top: auto;
+            }
+    
+            .sidebar button:hover {
+                background-color: #00b30f;
+            }
+        
+    </style>
+</head>
+<body>
+    <body>
+        <div class="container">
+            <div class="sidebar">
+                <h2>Files</h2>
+                <ul id="file-list">
+                    <!-- List of files will be added dynamically here -->
+                </ul>
+                <form id="file-form" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    <input type="file" id="file-input" style="display: none;" name="file">
+                    
+                </form>
+            </div>
+            <div class="left">
+                <label>CODE</label>
+                <button id="runButton" onclick="run()">Run</button>
+                <textarea id="html-code"></textarea>
+            </div>
+        </div>
+        <script src="{% static 'js/script.js' %}"></script> <!-- Load the JavaScript file -->
+    </body>
+    </html>
+

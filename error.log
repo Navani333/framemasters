@@ -1,0 +1,2423 @@
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: registration/login.html
+"GET / HTTP/1.1" 500 79317
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 22, in signup
+    return render(request, 'registration/signup.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: registration/signup.html
+"GET / HTTP/1.1" 500 80279
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 22, in signup
+    return render(request, 'registration/signup.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: registration/signup.html
+"GET / HTTP/1.1" 500 80279
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 22, in signup
+    return render(request, 'signup.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: signup.html
+"GET / HTTP/1.1" 500 80045
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 22, in signup
+    return render(request, 'signup.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'static'. Did you forget to register or load this tag?
+"GET / HTTP/1.1" 500 166531
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 22, in signup
+    return render(request, 'registration/signup.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'static'. Did you forget to register or load this tag?
+"GET / HTTP/1.1" 500 166665
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 22, in signup
+    return render(request, 'registration/signup.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 35: 'static'. Did you forget to register or load this tag?
+"GET / HTTP/1.1" 500 163005
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 22, in signup
+    return render(request, 'registration/signup.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 35: 'static'. Did you forget to register or load this tag?
+"GET / HTTP/1.1" 500 163005
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 22, in signup
+    return render(request, 'registration/signup.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 35: 'static'. Did you forget to register or load this tag?
+"GET / HTTP/1.1" 500 163005
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 22, in signup
+    return render(request, 'registration/signup.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 35: 'static'. Did you forget to register or load this tag?
+"GET / HTTP/1.1" 500 163005
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 22, in signup
+    return render(request, 'registration/signup.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 35: 'static'. Did you forget to register or load this tag?
+"GET / HTTP/1.1" 500 163005
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 22, in signup
+    return render(request, 'registration/signup.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 35: 'static'. Did you forget to register or load this tag?
+"GET / HTTP/1.1" 500 163005
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 22, in signup
+    return render(request, 'registration/signup.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not a valid view function or pattern name.
+"GET / HTTP/1.1" 500 142555
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 22, in signup
+    return render(request, 'registration/signup.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not a valid view function or pattern name.
+"GET / HTTP/1.1" 500 142555
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 22, in signup
+    return render(request, 'registration/signup.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not a valid view function or pattern name.
+"GET / HTTP/1.1" 500 142555
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 22, in signup
+    return render(request, 'registration/signup.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not a valid view function or pattern name.
+"GET / HTTP/1.1" 500 142555
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 22, in signup
+    return render(request, 'registration/signup.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not a valid view function or pattern name.
+"GET / HTTP/1.1" 500 142555
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 22, in signup
+    return render(request, 'registration/signup.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not a valid view function or pattern name.
+"GET / HTTP/1.1" 500 142555
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 22, in signup
+    return render(request, 'registration/signup.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'protected-view' not found. 'protected-view' is not a valid view function or pattern name.
+"GET / HTTP/1.1" 500 142582
+Internal Server Error: /run-code/
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 66, in run_code_view
+    return render(request, 'run_code.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 102: 'static'. Did you forget to register or load this tag?
+"GET /run-code/ HTTP/1.1" 500 148839
+Internal Server Error: /run-code/
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 66, in run_code_view
+    return render(request, 'run_code.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 102: 'static'. Did you forget to register or load this tag?
+"GET /run-code/ HTTP/1.1" 500 148839
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 59, in run_code_view
+    return render(request, 'run_code.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'user-dashboard' not found. 'user-dashboard' is not a valid view function or pattern name.
+"GET /index/ HTTP/1.1" 500 146769
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 12, in index
+    return render(request, 'index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 7: 'static'. Did you forget to register or load this tag?
+"GET /index/ HTTP/1.1" 500 134869
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 36, in index
+    return render(request, 'index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 22: 'static', expected 'endblock'. Did you forget to register or load this tag?
+"GET / HTTP/1.1" 500 166728
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 36, in index
+    return render(request, 'index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 22: 'static', expected 'endblock'. Did you forget to register or load this tag?
+"GET / HTTP/1.1" 500 166728
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 36, in index
+    return render(request, 'index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'login' not found. 'login' is not a valid view function or pattern name.
+"GET / HTTP/1.1" 500 142919
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 36, in index
+    return render(request, 'index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\defaulttags.py", line 1389, in url
+    args.append(parser.compile_filter(value))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ''' from '''
+"GET / HTTP/1.1" 500 176914
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 37, in index
+    return render(request, 'index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\defaulttags.py", line 1389, in url
+    args.append(parser.compile_filter(value))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ''' from '''
+"GET / HTTP/1.1" 500 184065
+Internal Server Error: /create_file/
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 51, in file_page
+    return render(request, 'file_pages/file_page.html', {'file_name': file_name})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: file_pages/file_page.html
+"GET /create_file/?file_name=krishna.html HTTP/1.1" 500 83197
+Internal Server Error: /create_file/
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 51, in file_page
+    return render(request, 'file_pages/file_page.html', {'file_name': file_name})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: file_pages/file_page.html
+"GET /create_file/?file_name=krishna.html HTTP/1.1" 500 83465
+Internal Server Error: /create_file/
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 51, in file_page
+    return render(request, 'file_pages/file_page.html', {'file_name': file_name})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: file_pages/file_page.html
+"GET /create_file/?file_name=krishna.html HTTP/1.1" 500 83465
+Internal Server Error: /create_file/
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 51, in file_page
+    return render(request, 'file_pages/file_page.html', {'file_name': file_name})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: file_pages/file_page.html
+"GET /create_file/?file_name=krishna.html HTTP/1.1" 500 83465
+Internal Server Error: /create_file/
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 51, in file_page
+    return render(request, 'file_pages/file_page.html', {'file_name': file_name})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: file_pages/file_page.html
+"GET /create_file/?file_name=file_1692872702438.html HTTP/1.1" 500 83427
+Internal Server Error: /create_file/
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 51, in file_page
+    return render(request, 'file_pages/file_page.html', {'file_name': file_name})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: file_pages/file_page.html
+"GET /create_file/?file_name=file_1692872718269.html HTTP/1.1" 500 83427
+Internal Server Error: /create_file/
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 58, in create_file_view
+    return render(request, 'create_file.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: create_file.html
+"GET /create_file/?file_name=file_1692872718269.html HTTP/1.1" 500 82115
+Internal Server Error: /create_file/
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 58, in create_file_view
+    return render(request, 'create_file.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: create_file.html
+"GET /create_file/?file_name=file_1692872718269.html HTTP/1.1" 500 82115
+Internal Server Error: /create_file/
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 58, in create_file_view
+    return render(request, 'create_file.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: create_file.html
+"GET /create_file/?file_name=file_1692872718269.html HTTP/1.1" 500 82115
+Internal Server Error: /create_file/
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 58, in create_file_view
+    return render(request, 'create_file.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: create_file.html
+"GET /create_file/?file_name=file_1692872718269.html HTTP/1.1" 500 81754
+Internal Server Error: /create_file/
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 58, in create_file_view
+    return render(request, 'create_file.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: create_file.html
+"GET /create_file/?file_name=file_1692872718269.html HTTP/1.1" 500 81754
+Internal Server Error: /create_file/
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 58, in create_file_view
+    return render(request, 'create_file.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: create_file.html
+"GET /create_file/?file_name=file_1692872718269.html HTTP/1.1" 500 81754
+Internal Server Error: /create_file/
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 58, in create_file_view
+    return render(request, 'create_file.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: create_file.html
+"GET /create_file/?file_name=file_1692872718269.html HTTP/1.1" 500 81754
+Internal Server Error: /create_file/
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 58, in create_file_view
+    return render(request, 'create_file.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: create_file.html
+"GET /create_file/?file_name=file_1692872718269.html HTTP/1.1" 500 81754
+Internal Server Error: /create_file/
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 58, in create_file_view
+    return render(request, 'create_file.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: create_file.html
+"GET /create_file/?file_name=file_1692872718269.html HTTP/1.1" 500 81754
+Internal Server Error: /create_file/
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 61, in create_file_view
+    return render(request, 'create_file.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: create_file.html
+"GET /create_file/?file_name=file_1692872718269.html HTTP/1.1" 500 81779
+Internal Server Error: /create_file/
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 61, in create_file_view
+    return render(request, 'create_file.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: create_file.html
+"GET /create_file/?file_name=file_1692872718269.html HTTP/1.1" 500 81779
+Internal Server Error: /create_file/
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 61, in create_file_view
+    return render(request, 'create_file.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: create_file.html
+"GET /create_file/?file_name=file_1692872718269.html HTTP/1.1" 500 81779
+Internal Server Error: /create_file/
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: editor_file
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 61, in create_file_view
+    return render(request, 'create_file.html', {'files': files})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\defaulttags.py", line 194, in render
+    len_values = len(values)
+                 ^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: editor_file
+"GET /create_file/?file_name=file_1692872718269.html HTTP/1.1" 500 207224
+Internal Server Error: /create_file/
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: editor_file
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 61, in create_file_view
+    return render(request, 'create_file.html', {'files': files})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\defaulttags.py", line 194, in render
+    len_values = len(values)
+                 ^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: editor_file
+"GET /create_file/?file_name=file_1692873455236.html HTTP/1.1" 500 207087
+Internal Server Error: /create_file/
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: editor_file
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 61, in create_file_view
+    return render(request, 'create_file.html', {'files': files})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\template\defaulttags.py", line 194, in render
+    len_values = len(values)
+                 ^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: editor_file
+"GET /create_file/?file_name=file_1692873455236.html HTTP/1.1" 500 207224
+Internal Server Error: /create_file/
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\codeplayground\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 54, in create_file
+    return HttpResponse(f"Creating file: {file_name}")
+           ^^^^^^^^^^^^
+NameError: name 'HttpResponse' is not defined. Did you mean: 'JsonResponse'?
+"GET /create_file/?file_name=file_1709269469081.html HTTP/1.1" 500 68083
+Internal Server Error: /create_file/
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\codeplayground\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 54, in create_file
+    return HttpResponse(f"Creating file: {file_name}")
+           ^^^^^^^^^^^^
+NameError: name 'HttpResponse' is not defined. Did you mean: 'JsonResponse'?
+"GET /create_file/?file_name=file_1709269551626.html HTTP/1.1" 500 67946
+Internal Server Error: /create_file/
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\codeplayground\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 54, in create_file
+    return HttpResponse(f"Creating file: {file_name}")
+           ^^^^^^^^^^^^
+NameError: name 'HttpResponse' is not defined. Did you mean: 'JsonResponse'?
+"GET /create_file/?file_name=file_1709269551626.html HTTP/1.1" 500 68083
+Internal Server Error: /create_file/
+Traceback (most recent call last):
+  File "C:\laragon\www\KDKRISHNA\codeplayground\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\laragon\www\KDKRISHNA\codeplayground\editor\views.py", line 54, in create_file
+    return HttpResponse(f"Creating file: {file_name}")
+           ^^^^^^^^^^^^
+NameError: name 'HttpResponse' is not defined. Did you mean: 'JsonResponse'?
+"GET /create_file/?file_name=file_1709269551626.html HTTP/1.1" 500 68083
